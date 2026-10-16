@@ -10,6 +10,7 @@ def LinearRegression():
     w = (np.linalg.inv(x.T @ x) @ (x.T @ y))
     # Predicrting new values using y = wx + b no b here since we already added the bias to x
     print(np.array([6, 1] @ w))
+    
 
 
 if __name__ == '__main__':
