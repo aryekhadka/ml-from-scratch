@@ -2,7 +2,7 @@ import numpy as np
 
 def LinearRegression():
     x = np.array([1, 2, 3, 4, 5])
-    y = np.array([2, 4, 6, 8, 10])
+    y = np.array([2, 5, 8, 11, 14])
     # Adding a bias to x
     ones = np.ones((x.shape[0], 1))
     x = np.hstack((x.reshape(-1, 1), ones))
